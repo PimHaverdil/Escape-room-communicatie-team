@@ -1,1 +1,6 @@
 Scenario
+
+Je bent een russische spion en je wil belangrijke informatie stelen van de overheid.
+Je hebt maar een uur de tijd want daarna komt de minister terug.
+Je wil de informatie stelen, want Nederland heeft een aanval gepland op Rusland en jij wil je land beschermen.
+
