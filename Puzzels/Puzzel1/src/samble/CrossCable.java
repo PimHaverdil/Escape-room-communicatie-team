@@ -1,4 +1,6 @@
 package samble;
 
-public class CrossCable {
+public class CrossCable extends Cable 
+{
+    
 }
