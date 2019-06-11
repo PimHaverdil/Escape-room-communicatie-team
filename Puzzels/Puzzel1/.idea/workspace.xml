@@ -80,9 +80,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/UserInterface.java" />
-        <option value="$PROJECT_DIR$/src/sample/Cable.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/samble/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/samble/Cable.java" />
+        <option value="$PROJECT_DIR$/src/samble/Main.java" />
       </list>
     </option>
   </component>
@@ -153,12 +153,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="samble.Main" />
       <module name="Puzzle 1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="samble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,13 +278,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/UserInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/BentCable.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Cable.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/StraightCable.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/CrossCable.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/UserInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/BentCable.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/Cable.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/StraightCable.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/CrossCable.java" />
+    <entry file="file://$PROJECT_DIR$/src/samble/Main.java" />
   </component>
 </project>
