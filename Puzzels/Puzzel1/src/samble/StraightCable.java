@@ -1,4 +1,5 @@
 package samble;
 
-public class StraightCable {
+public class StraightCable extends Cable
+{
 }

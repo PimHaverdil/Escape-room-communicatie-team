@@ -1,4 +1,5 @@
 package samble;
 
-public class BentCable {
+public class BentCable extends Cable
+{
 }
