@@ -14,6 +14,6 @@ public class BentCable extends Cable
      */
     public void act() 
     {
-        // Add your action code here.
+        onClick();
     }    
 }
