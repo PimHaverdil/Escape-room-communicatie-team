@@ -15,5 +15,6 @@ public class BentCable extends Cable
     public void act() 
     {
         onClick();
+        Connected();
     }    
 }

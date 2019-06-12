@@ -19,6 +19,24 @@ public class ConnectionPoint extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        Connected();
+    }  
+    
+    public boolean Connected()
+    {
+        if (Cable.getCount() >= 11)
+        {
+            if (isTouching(StraightCable.class) || isTouching(BentCable.class))
+            {
+               setImage("images/ConnectionPointAttached.png");
+               return true;
+            } else
+            {
+               return false;
+            }
+        } else
+        {
+          return false;   
+        }
+    }
 }

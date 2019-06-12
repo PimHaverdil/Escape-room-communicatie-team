@@ -15,5 +15,6 @@ public class StraightCable extends Cable
     public void act() 
     {
         onClick();
+        Connected();
     }    
 }
