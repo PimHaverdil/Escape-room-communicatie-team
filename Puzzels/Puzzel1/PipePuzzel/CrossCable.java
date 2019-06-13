@@ -14,6 +14,6 @@ public class CrossCable extends Cable
      */
     public void act() 
     {
-        // Add your action code here.
+        
     }    
 }
