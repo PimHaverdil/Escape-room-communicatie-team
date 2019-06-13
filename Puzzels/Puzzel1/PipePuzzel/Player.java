@@ -1,0 +1,46 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Player here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Player extends Actor
+{
+    /**
+     * Act - do whatever the Player wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        playerMovement();
+    } 
+    
+    public void playerMovement()
+    {
+       int dx = 0, dy = 0; 
+       if (Greenfoot.isKeyDown("W"))
+       {
+           dy = -1;
+       }
+       if (Greenfoot.isKeyDown("A"))
+       {
+           dx = -1;
+       }
+       if (Greenfoot.isKeyDown("S"))
+       {
+           dy = 1;
+       }
+       if (Greenfoot.isKeyDown("D")) 
+       {  
+           dx = 1;
+       }
+       setLocation(getX()+dx, getY()+dy);
+       if (isTouching(SolidWall.class))
+       {
+           setLocation(getX()-dx, getY()-dy);
+       }
+    }
+    }
+

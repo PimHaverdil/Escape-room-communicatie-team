@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Level1 extends World
 {
-
+    private int i = 0;
     /**
      * Constructor for objects of class Level1.
      * 
@@ -17,34 +17,31 @@ public class Level1 extends World
     public Level1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(8, 8, 60);
+        super(12, 12, 60);
         setBackground("images/cell.png");
-        addCP();
-        addCables();
+        addWalls();
+        addPlayer();
+        Greenfoot.setSpeed(30);
     }
     
-    public void addCables()
-    {
-       addObject(new BentCable(), 0, 1);
-       addObject(new StraightCable(), 1, 1);
-       addObject(new StraightCable(), 2, 1);
-       addObject(new BentCable(), 3, 1);
-       addObject(new StraightCable(), 3, 2);
-       addObject(new StraightCable(), 3, 3);
-       addObject(new BentCable(), 3, 4);
-       addObject(new StraightCable(), 4, 4);
-       addObject(new StraightCable(), 5, 4);
-       addObject(new StraightCable(), 6, 4);
-       addObject(new BentCable(), 7, 4);
-       addObject(new StraightCable(), 7, 5);
-       addObject(new StraightCable(), 7, 6);
+    public void addWalls()
+    { 
+      while(i < 10)
+      {
+        
+        addObject(new SolidWall(),1,i);
+        addObject(new SolidWall(),3, i+2);
+        addObject(new SolidWall(),5, i);
+        addObject(new SolidWall(),7, i+2);
+        addObject(new SolidWall(),9, i);
+        addObject(new SolidWall(),11, i+2);
+       i++;
+      }
+      
     }
     
-    public void addCP()
+    public void addPlayer()
     {
-       addObject(new ConnectionPoint(), 0, 0); 
-       addObject(new ConnectionPoint(), 7, 0);
-       addObject(new ConnectionPoint(), 0, 7);
-       addObject(new ConnectionPoint(), 7, 7);
+        addObject(new Player(), 0,0);
     }
 }
