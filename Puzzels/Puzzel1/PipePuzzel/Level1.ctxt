@@ -7,5 +7,5 @@ comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Level1.\r\n\ \r\n
 comment2.params=
 comment2.target=void\ addWalls()
 comment3.params=
-comment3.target=void\ addPlayer()
+comment3.target=void\ addPlayers()
 numComments=4

@@ -20,7 +20,7 @@ public class Level1 extends World
         super(12, 12, 60);
         setBackground("images/cell.png");
         addWalls();
-        addPlayer();
+        addPlayers();
         Greenfoot.setSpeed(30);
     }
     
@@ -40,8 +40,15 @@ public class Level1 extends World
       
     }
     
-    public void addPlayer()
+    public void addPlayers()
     {
         addObject(new Player(), 0,0);
+        addObject(new Door(), 12, 0);
+        addObject(new Enemy(), 2, Greenfoot.getRandomNumber(12));
+        addObject(new Enemy(), 4, Greenfoot.getRandomNumber(12));
+        addObject(new Enemy(), 6, Greenfoot.getRandomNumber(12));
+        addObject(new Enemy(), 8, Greenfoot.getRandomNumber(12));
+        addObject(new Enemy(), 10, Greenfoot.getRandomNumber(12));
+
     }
 }

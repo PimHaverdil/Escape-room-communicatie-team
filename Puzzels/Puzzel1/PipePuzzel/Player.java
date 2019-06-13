@@ -1,6 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import javax.swing.JOptionPane;
 
-/**
+ /**
  * Write a description of class Player here.
  * 
  * @author (your name) 
@@ -15,6 +16,7 @@ public class Player extends Actor
     public void act() 
     {
         playerMovement();
+        findDoor();
     } 
     
     public void playerMovement()
@@ -41,6 +43,24 @@ public class Player extends Actor
        {
            setLocation(getX()-dx, getY()-dy);
        }
+    }
+    
+    public boolean canSee(Class clss)
+    {
+        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        return actor != null;        
+    }
+    
+    public void findDoor()
+    {
+        if(canSee(Door.class))
+        {
+            JOptionPane.showMessageDialog(null, "To the next level you go!");
+            
+        
+            Greenfoot.setWorld(new Level2());
+        
+        }
     }
     }
 
