@@ -36,6 +36,6 @@ public class Level2 extends World
     
     public void addPlayer()
     {
-        addObject(new Player(), 0,0);
+        addObject(new Player(), 12,0);
     }
 }
