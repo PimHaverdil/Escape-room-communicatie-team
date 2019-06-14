@@ -22,6 +22,7 @@ public class MyWorld extends World
     
     public void generatePopulation()
     {
+       
         addObject(new Button(), 330, 225);
     }
 }
