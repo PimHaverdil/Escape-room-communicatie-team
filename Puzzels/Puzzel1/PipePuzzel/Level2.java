@@ -141,6 +141,12 @@ public class Level2 extends World
       addObject(new SolidWall(),3,11);
       addObject(new SolidWall(),5,11);
       addObject(new SolidWall(),9,11);
+
+      while(i < 10)
+      {
+        
+       i++;
+      }
     }
     
     public void addPlayer()
