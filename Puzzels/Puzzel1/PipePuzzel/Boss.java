@@ -23,15 +23,15 @@ public class Boss extends Mover
     {
         findPlayer();
         enemyMovement();
-        fire();
+        
     } 
     
     public Boss()
     {
-        rotation = 0;
+        rotation = 90;
         turn(rotation);
-        gunReloadTime = 5;
-        reloadDelayCount = 0; // initially slowly drifting
+        gunReloadTime = 15;
+        reloadDelayCount = 5; // initially slowly drifting
         shotsFired = 0;
     }
     
