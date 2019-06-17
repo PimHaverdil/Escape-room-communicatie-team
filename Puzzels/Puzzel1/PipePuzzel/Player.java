@@ -25,18 +25,22 @@ public class Player extends Actor
        if (Greenfoot.isKeyDown("W"))
        {
            dy = -1;
+           setImage("Looking_up.png");
        }
        if (Greenfoot.isKeyDown("A"))
        {
            dx = -1;
+           setImage("Looking_left.png");
        }
        if (Greenfoot.isKeyDown("S"))
        {
            dy = 1;
+           setImage("Looking_down.png");
        }
        if (Greenfoot.isKeyDown("D")) 
        {  
            dx = 1;
+           setImage("Looking_right.png");
        }
        setLocation(getX()+dx, getY()+dy);
        if (isTouching(SolidWall.class))
