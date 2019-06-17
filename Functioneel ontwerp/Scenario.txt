@@ -25,3 +25,22 @@ Puzzel 3
 In een pak die aan een paspop hangt zit een kluispasje. In dat kluisje zit een code die ontcijferd moet
 worden. Achter het scherm van de beamer zit een plaatje waarmee je de code kan ontcijferen.
 
+
+Puzzel 4
+
+10 Foto's maken van delen van een auto. Die worden verwerkt in posters. In die posters kan je een code
+
+
+Puzzel 5
+
+Er liggen boeken met letters erop geplakt. Als je de letters die op de boeken liggen op alfabetische volgorde zet,
+krijg je een hint van waar de sleutel van de kist voor puzzel 6 verstopt ligt, want die ligt heel goed verstopt.
+
+
+Puzzel 6
+
+In de kist die je opent met puzzel 5 ligt een kaartje met een link. Die link is nog niet compleet.
+Ontcijfer de link zodat je op de webpagina van puzzel 7 kan komen
+
+
+
