@@ -136,6 +136,8 @@ public class Level3 extends World
     {
         addObject(new Player(), 0,1);
         addObject(new Boss(), 17, 4);
+        addObject(new Door(), 5, 0);
+        addObject(new Key(),18,1);
         addObject(new EnemyBoss(), 3, 7);
         addObject(new EnemyBoss(), 7, 11);
         addObject(new EnemyBoss(), 7, 2);
