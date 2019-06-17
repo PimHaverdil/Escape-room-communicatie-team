@@ -57,6 +57,7 @@
             this.txbWachtword.Font = new System.Drawing.Font("Calibri", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbWachtword.Location = new System.Drawing.Point(240, 249);
             this.txbWachtword.Name = "txbWachtword";
+            this.txbWachtword.PasswordChar = '*';
             this.txbWachtword.Size = new System.Drawing.Size(400, 60);
             this.txbWachtword.TabIndex = 1;
             // 
