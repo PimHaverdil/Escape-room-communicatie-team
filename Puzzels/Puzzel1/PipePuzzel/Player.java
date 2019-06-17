@@ -53,14 +53,38 @@ public class Player extends Actor
     
     public void findDoor()
     {
-        if(canSee(Door.class))
+        if (getWorld() instanceof Level1)
         {
-            JOptionPane.showMessageDialog(null, "To the next level you go!");
+            if(canSee(Door.class))
+            {
+                JOptionPane.showMessageDialog(null, "To the next level you go!");
+                
             
-        
-            Greenfoot.setWorld(new Level2());
-        
+                Greenfoot.setWorld(new Level2());
+            
+            }
+        } else if(getWorld() instanceof Level2)
+        {
+            if(canSee(Door.class))
+            {
+                JOptionPane.showMessageDialog(null, "To the next level you go!");
+                
+            
+                Greenfoot.setWorld(new Level3());
+            
+            }
+        } else if(getWorld() instanceof Level3)
+        {
+            if(canSee(Door.class))
+            {
+                JOptionPane.showMessageDialog(null, "You won!");
+                
+            
+                Greenfoot.stop();
+            
+            }
         }
+    
     }
-    }
+}
 
