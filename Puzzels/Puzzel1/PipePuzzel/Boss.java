@@ -23,16 +23,12 @@ public class Boss extends Mover
     {
         findPlayer();
         enemyMovement();
-        
     } 
     
     public Boss()
     {
         rotation = 90;
         turn(rotation);
-        gunReloadTime = 15;
-        reloadDelayCount = 5; // initially slowly drifting
-        shotsFired = 0;
     }
     
     public void findPlayer()
@@ -71,33 +67,4 @@ public class Boss extends Mover
         }
     }
     
-     /**
-     * Fire a bullet if the gun is ready.
-     */
-    private void fire() 
-    {
-        int rn = Greenfoot.getRandomNumber(5);
-            Bullet b = new Bullet(getMovement().copy(), getRotation());
-            getWorld().addObject(b, getX() - rn , getY() - rn);
-            b.move();
-            shotsFired++;
-            reloadDelayCount = 0;
-    }
-    
-     /**
-     * Set the time needed for re-loading the rocket's gun. The shorter this time is,
-     * the faster the rocket can fire. The (initial) standard time is 20.
-     */
-    public void setGunReloadTime(int reloadTime)
-    {
-        gunReloadTime = reloadTime;
-    }
-    
-     /**
-     * Return the number of shots fired from this rocket.
-     */
-    public int getShotsFired()
-    {
-        return shotsFired;
-    }
 }
