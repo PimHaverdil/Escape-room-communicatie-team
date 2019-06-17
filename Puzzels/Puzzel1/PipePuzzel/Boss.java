@@ -6,14 +6,11 @@ import javax.swing.JOptionPane;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Boss extends Mover
+public class Boss extends Actor
 {
     private static final int NORTH = 0;
     private static final int SOUTH = 1;
-    private int rotation;
-    private int gunReloadTime;                  // The minimum delay between firing the gun.
-    private int reloadDelayCount;               // How long ago we fired the gun the last time.
-    private Vector acceleration;                // How fast the rocket is.
+    private int rotation;               // How fast the rocket is.
     private int shotsFired; 
     /**
      * Act - do whatever the Enemy wants to do. This method is called whenever
