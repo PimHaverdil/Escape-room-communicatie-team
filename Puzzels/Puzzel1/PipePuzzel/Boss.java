@@ -10,8 +10,7 @@ public class Boss extends Actor
 {
     private static final int NORTH = 0;
     private static final int SOUTH = 1;
-    private int rotation;               // How fast the rocket is.
-    private int shotsFired; 
+    private int rotation;               
     /**
      * Act - do whatever the Enemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
