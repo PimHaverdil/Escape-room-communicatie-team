@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class Player extends Actor
 {
+    private int key = 0;
     /**
      * Act - do whatever the Player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -17,6 +18,7 @@ public class Player extends Actor
     {
         playerMovement();
         findDoor();
+        findKey();
     } 
     
     public void playerMovement()
@@ -47,12 +49,30 @@ public class Player extends Actor
        {
            setLocation(getX()-dx, getY()-dy);
        }
+       
     }
     
     public boolean canSee(Class clss)
     {
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         return actor != null;        
+    }
+    
+    public void eat(Class clss)
+    {
+        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        if(actor != null) {
+            getWorld().removeObject(actor);
+        }
+    }
+    
+    public void findKey()
+    {
+        if(canSee(Key.class))
+        {
+            key++;
+            eat(Key.class);
+        }
     }
     
     public void findDoor()
@@ -81,11 +101,16 @@ public class Player extends Actor
         {
             if(canSee(Door.class))
             {
-                JOptionPane.showMessageDialog(null, "You won!" + "\n" + "Your score is " + Counter.score);
-                
-            
-                Greenfoot.stop();
-            
+                if(key == 1)
+                {
+                    JOptionPane.showMessageDialog(null, "You won!" + "\n" + "Your score is " + Counter.score);
+                    Greenfoot.stop();
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "You need to get the key first.");
+                    setLocation(5,1);
+                }
             }
         }
     
