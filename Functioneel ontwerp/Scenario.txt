@@ -28,7 +28,9 @@ worden. Achter het scherm van de beamer zit een plaatje waarmee je de code kan o
 
 Puzzel 4
 
-10 Foto's maken van delen van een auto. Die worden verwerkt in posters. In die posters kan je een code
+10 Foto's maken van delen van een auto. Foto's staan op een website waar je in kan komen door puzzel 6 op te lossen
+Als je de eerste letter pakt van de automerken krijg je een wachtwoord. Als je dat wachtwoord goed hebt, heb je de
+escape room gewonnen
 
 
 Puzzel 5
@@ -40,7 +42,7 @@ krijg je een hint van waar de sleutel van de kist voor puzzel 6 verstopt ligt, w
 Puzzel 6
 
 In de kist die je opent met puzzel 5 ligt een kaartje met een link. Die link is nog niet compleet.
-Ontcijfer de link zodat je op de webpagina van puzzel 7 kan komen
+Ontcijfer de link zodat je op de webpagina van puzzel 4 kan komen
 
 
 
