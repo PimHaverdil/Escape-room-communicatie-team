@@ -7,30 +7,32 @@ Je wil de informatie stelen, want Nederland heeft een aanval gepland op Rusland 
 
 Puzzel 1
 
-De bedoeling bij deze puzzel is dat je kabels draait zodat ze met elkaar verbinden.
-Als een kabel goed verbonden is krijgt hij een groene rand. Hoe verder je in de levels
-komt hoe moeilijker het word. Bij level 2 word het iets moeilijker door het groter te
-maken en in level 3 krijg je een boss battle en gaan de kabels random draaien om het 
-moeilijker te maken.
+De bedoeling bij deze puzzel is dat je zonder gepakt te worden door de beveiligers naar de uitgang van het gebouw
+komt. Dit doe je in 3 verschillende levels, waarvan het 3e level een boss level is. Als je gepakt word door de 
+beveiligers ga je automatisch terug naar level 1, ook al was je bij level 3.
 
 
 Puzzel 2
 
-De groep met 4 blaadjes met cijfers errop vinden en operators in de posters zoeken en daar een 
+De groep moet 4 blaadjes met cijfers erop vinden en operators in de posters zoeken en daar een 
 rekensom van maken. De uitkomst van de rekensom is het antwoord van het slot van de koffer van de laptop.
+In de voice recording hoor je "Om de rekensom op te lossen moet je van hoog naar laag denken". In de rekensom
+moet je de getallen van hoog naar laag zetten en dan de operators van de posters er tussen zetten.
 
 
 Puzzel 3
 
-In een pak die aan een paspop hangt zit een kluispasje. In dat kluisje zit een code die ontcijferd moet
-worden. Achter het scherm van de beamer zit een plaatje waarmee je de code kan ontcijferen.
+In de koffer van de laptop ligt een graafschapcollege pasje waarmee je een kluisje kan openen. 
+In dat kluisje zit een code die ontcijferd moet worden. Achter het scherm van de beamer zit 
+een plaatje waarmee je de code kan ontcijferen.
 
 
 Puzzel 4
 
-10 Foto's maken van delen van een auto. Foto's staan op een website waar je in kan komen door puzzel 6 op te lossen
-Als je de eerste letter pakt van de automerken krijg je een wachtwoord. Als je dat wachtwoord goed hebt, heb je de
-escape room gewonnen
+10 Foto's gemaakt van autologo's. Foto's staan op een website waar je in kan komen door puzzel 6 op te lossen
+Als je de eerste letter pakt van de automerken krijg je het wachtwoord van het dossier. Als je dat wachtwoord goed hebt,
+heb je toegang tot het dossier. Als je dat dossier op een USB stick zet die je aan het begin krijgt en je komt daar
+mee buiten, heb je gewonnen
 
 
 Puzzel 5
