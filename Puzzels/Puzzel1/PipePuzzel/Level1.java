@@ -22,6 +22,9 @@ public class Level1 extends World
         addWalls();
         addPlayers();
         Greenfoot.setSpeed(30);
+        Counter counter = new Counter();
+        addObject(counter, 1, 1);
+        counter.setCount(Counter.score);
     }
     
     public void addWalls()

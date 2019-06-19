@@ -22,6 +22,9 @@ public class Level3 extends World
         addWalls();
         addPlayer();
         Greenfoot.setSpeed(30);
+        Counter counter = new Counter();
+        addObject(counter, 1, 0);
+        counter.setCount(Counter.score);
     }
     
     public void addWalls()
@@ -139,5 +142,6 @@ public class Level3 extends World
         addObject(new EnemyBoss(), 3, 7);
         addObject(new EnemyBoss(), 7, 11);
         addObject(new EnemyBoss(), 7, 2);
+        addObject(new Door(), 5, 0);
     }
 }

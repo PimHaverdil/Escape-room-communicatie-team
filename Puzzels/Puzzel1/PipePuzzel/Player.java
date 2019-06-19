@@ -81,7 +81,7 @@ public class Player extends Actor
         {
             if(canSee(Door.class))
             {
-                JOptionPane.showMessageDialog(null, "You won!");
+                JOptionPane.showMessageDialog(null, "You won!" + "\n" + "Your score is " + Counter.score);
                 
             
                 Greenfoot.stop();
