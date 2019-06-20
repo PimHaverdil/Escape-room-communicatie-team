@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 
 namespace @interface
 {
@@ -19,7 +20,7 @@ namespace @interface
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,6 +40,25 @@ namespace @interface
                 txbWachtword.Clear();
             }
         }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            switch (e.CloseReason)
+            {
+                case CloseReason.UserClosing:
+                    e.Cancel = true;
+                    break;
+            }
+
+            base.OnFormClosing(e);
+        }
+
+
+
+
+
+
+
 
         private void lblFooter_Click(object sender, EventArgs e)
         {
