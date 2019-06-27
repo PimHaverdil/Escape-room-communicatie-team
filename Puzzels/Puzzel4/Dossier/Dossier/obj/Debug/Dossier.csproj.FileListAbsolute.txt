@@ -1,0 +1,10 @@
+C:\Users\pim\source\repos\Dossier\Dossier\bin\Debug\Dossier.exe.config
+C:\Users\pim\source\repos\Dossier\Dossier\bin\Debug\Dossier.exe
+C:\Users\pim\source\repos\Dossier\Dossier\bin\Debug\Dossier.pdb
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.csprojAssemblyReference.cache
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.Form1.resources
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.Properties.Resources.resources
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.csproj.GenerateResource.cache
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.csproj.CoreCompileInputs.cache
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.exe
+C:\Users\pim\source\repos\Dossier\Dossier\obj\Debug\Dossier.pdb
